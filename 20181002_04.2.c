@@ -12,14 +12,14 @@ int exp(int a, int b) {
 }
 
 int main() {
-	int x = 0;
-	int y = 0;
+	int a = 0;
+	int b = 0;
 
 	printf("Geben Sie ihre Basis ein!\n");
-	scanf("%d", &x);
+	scanf("%d", &a);
 	printf("Geben Sie ihren Exponenten ein!\n");
-	scanf("%d", &y);
-	printf("\n%d hoch %d ist %d\n\n", x, y, exp(x, y));
+	scanf("%d", &b);
+	printf("%d hoch %d ist %d\n", a, b, exp(a, b));
 
 	return 0;
 }
