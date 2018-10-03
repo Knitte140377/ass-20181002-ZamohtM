@@ -24,6 +24,7 @@ int main() {
 	}
 	else if (b < -1) {
 		b = -b;
+		
 		float result = exp(a, b);
 		float endResult = 1 / result;
 
