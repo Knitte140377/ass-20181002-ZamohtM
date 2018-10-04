@@ -1,27 +1,24 @@
 #include <stdio.h>
 
-int main ()
+int main()
 {
-  int a = 0;
-  int b = 0;
+	int num1 = 0;
+	int num2 = 0;
 
-  printf ("Geben Sie ihre erste Zahl ein!\n");
-  scanf ("%d", &a);
-  printf ("Geben Sie ihre zweite Zahl ein!\n");
-  scanf ("%d", &b);
+	printf("Geben Sie ihre erste Zahl ein!\n");
+	scanf("%d", &num1);
+	printf("Geben Sie ihre zweite Zahl ein!\n");
+	scanf("%d", &num2);
 
-  if (a > b)
-    {
-      printf ("Ihre erste Zahl ist größer!");
-    }
-  else if (b > a)
-    {
-      printf ("Ihre zweite Zahl ist größer!");
-    }
-  else
-    {
-      printf ("Ihre beiden Zahlen sind gleich groß!");
-    }
+	if (num1 > num2) {
+		printf("Ihre erste Zahl %d ist größer!", num1);
+	}
+	else if (num2 > num1) {
+		printf("Ihre zweite Zahl %d ist größer!", num2);
+	}
+	else {
+		printf("Ihre beiden Zahlen %d und %d sind gleich groß!", num1, num2);
+	}
 
-  return 0;
+	return 0;
 }
