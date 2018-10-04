@@ -18,10 +18,10 @@ int main() {
 	printf("Geben Sie ihren Exponenten ein!\n");
 	scanf("%d", &exponent);
 
-	if (exponent > 1) {
+	if (exponent >= 1) {
 		printf("%d hoch %d ist %d", base, exponent, power(base, exponent));
 	}
-	else if (exponent < -1) {
+	else if (exponent <= -1) {
 		exponent = -exponent;
 		float tempResult = power(base, exponent);
 		float result = 1 / tempResult;
