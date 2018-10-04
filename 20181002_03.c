@@ -2,22 +2,21 @@
 
 int main() {
 
-	int a;
+	int num1=0;
 
 	printf("Geben Sie eine Zahl ein!\n");
-	scanf("%d", &a);
+	scanf("%d", &num1);
 
-	if (a > 0) {
-		while (a >= 0) {
-			printf("Counter: %d\n", a--);
+	if (num1 > 0) {
+		while (num1 >= 0) {
+			printf("Counter: %d\n", num1--);
 		}
 	}
-	else if (a < 0) {
-		while (a <= 0) {
-			printf("Counter: %d\n", a++);
+	else if (num1 < 0) {
+		while (num1 <= 0) {
+			printf("Counter: %d\n", num1++);
 		}
 	}
-	
 
 	return 0;
 }
