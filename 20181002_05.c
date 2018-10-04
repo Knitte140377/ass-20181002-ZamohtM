@@ -1,23 +1,23 @@
 #include <stdio.h>
 
-int main(){
+int main() {
 
-	int a = 0;
-	int b = 0;
-	int r = 0;
+	int num1 = 0;
+	int num2 = 0;
+	int remainder = 0;
 
 	printf("Geben Sie Ihre erste Zahl ein!\n");
-	scanf("%d", &a);
+	scanf("%d", &num1);
 	printf("Geben Sie Ihre zweite Zahl ein!\n");
-	scanf("%d", &b);
+	scanf("%d", &num2);
 
-	while (b != 0) {
+	while (num2 != 0) {
 
-		r = a % b;
-		a = b;
-		b = r;
+		remainder = num1 % num2;
+		num1 = num2;
+		num2 = remainder;
 	}
 
-	printf("%d", a);
+	printf("Der GGT ist: %d", num1);
 	return 0;
 }
