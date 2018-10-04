@@ -1,23 +1,20 @@
 #include <stdio.h>
 
-int
-main ()
+int main()
 {
-  int a = 0;
-  int b = 0;
-  int result = 0;
+	int num1 = 0;
+	int num2 = 0;
+	int result = 0;
 
-  printf ("Summen Rechner\n");
-  printf ("Geben Sie ihre erste Zahl ein!\n");
-  scanf ("%d", &a);
-  printf ("Geben Sie ihre zweite Zahl ein!\n");
-  scanf ("%d", &b);
+	printf("Summen Rechner\n");
+	printf("Geben Sie ihre erste Zahl ein!\n");
+	scanf("%d", &num1);
+	printf("Geben Sie ihre zweite Zahl ein!\n");
+	scanf("%d", &num2);
+	
+	result = num1 + num2;
 
-  result = a + b;
+	printf("Die Summe aus %d und %d ergibt %d", num1, num2, result);
 
-  printf ("Die Summe aus %d und %d ergiebt %d", a, b, result);
-
-
-
-  return 0;
+	return 0;
 }
