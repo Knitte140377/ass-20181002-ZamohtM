@@ -3,19 +3,18 @@
 
 int main() {
 
-	int a = 0;
-	int b = 0;
+	int num1 = 0;
+	int num2 = 0;
 	int result = 0;
-	
+
 	printf("Geben Sie ihre Basis ein!\n");
-	scanf("%d", &a);
+	scanf("%d", &num1);
 	printf("Geben Sie ihren Exponenten ein!\n");
-	scanf("%d", &b);
+	scanf("%d", &num2);
 
-	result = pow(a, b);
+	result = pow(num1, num2);
 
-	printf("Das Ergebnis von %d hoch %d ist %d", a, b, result);
-	
-	return 0;
+	printf("Das Ergebnis von %d hoch %d ist %d", num1, num2, result);
 
+return 0;
 }
