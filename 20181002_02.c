@@ -12,13 +12,11 @@ int main()
 
 	if (num1 > num2) {
 		printf("Ihre erste Zahl %d ist größer!", num1);
-	}
-	else if (num2 > num1) {
+	} else if (num2 > num1) {
 		printf("Ihre zweite Zahl %d ist größer!", num2);
-	}
-	else {
+	} else {
 		printf("Ihre beiden Zahlen %d und %d sind gleich groß!", num1, num2);
 	}
 
-	return 0;
+return 0;
 }
